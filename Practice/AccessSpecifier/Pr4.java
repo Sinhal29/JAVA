@@ -1,0 +1,10 @@
+class Demo{
+        void fun(){
+
+                System.out.println("In fun methdo");
+        }
+        public static void main(String[]args){
+                Demo obj= new Demo();
+                         int x=obj.fun();
+        }
+}
